@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Result = () => {
+const Result = props => {
+
     return (
-        <div>Result</div>
+        <>
+            {props.error ? `Niestety takie miasto nie istnieje w naszej bazie danych.` : null}
+        </>
     );
 }
 
