@@ -37,11 +37,14 @@ class App extends Component {
             })
             .then(response => response.json())
             .then(data => {
-                const time = new Date().toLocaleString();
+                const date = new Date().toLocaleDateString();
+                const time = new Date().toLocaleTimeString();
+                const city = this.state.value;
                 this.setState({
                     error: false,
-                    date: time,
-                    city: this.state.value,
+                    date,
+                    time,
+                    city,
                     sunrise: data.sys.sunrise,
                     sunset: data.sys.sunset,
                     temp: data.main.temp,
@@ -51,10 +54,10 @@ class App extends Component {
             })
             .catch(error => {
                 console.log(error);
-                this.setState({
+                this.setState(prevState => ({
                     error: true,
-                    city: this.state.value
-                })
+                    city: prevState.value
+                }))
             })
     }
 
