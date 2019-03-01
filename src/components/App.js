@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Form from './Form';
+import Result from './Result';
 
 class App extends Component {
     state = {}
@@ -6,7 +8,8 @@ class App extends Component {
     render() {
         return (
             <>
-                ITS WORKING
+                <Form />
+                <Result />
             </>
         );
     }
