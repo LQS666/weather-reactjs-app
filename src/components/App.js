@@ -37,14 +37,23 @@ class App extends Component {
             })
             .then(response => response.json())
             .then(data => {
+                const time = new Date().toLocaleString();
                 this.setState({
                     error: false,
+                    date: time,
+                    city: this.state.value,
+                    sunrise: data.sys.sunrise,
+                    sunset: data.sys.sunset,
+                    temp: data.main.temp,
+                    pressure: data.main.pressure,
+                    wind: data.wind.speed,
                 })
             })
             .catch(error => {
                 console.log(error);
                 this.setState({
-                    error: true
+                    error: true,
+                    city: this.state.value
                 })
             })
     }
@@ -57,7 +66,7 @@ class App extends Component {
                     change={this.handleInputChange}
                     value={this.state.value}
                 />
-                <Result error={this.state.error} />
+                <Result weather={this.state} />
             </>
         );
     }

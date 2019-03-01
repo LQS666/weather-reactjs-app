@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Result = props => {
-
+    const { error, city } = props.weather;
     return (
         <>
-            {props.error ? `Niestety takie miasto nie istnieje w naszej bazie danych.` : null}
+            {error ? `Niestety miasto ${city} nie istnieje w naszej bazie danych.` : null}
         </>
     );
 }
