@@ -1,0 +1,69 @@
+.weatherInfoContainer {
+    color: white;
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    padding: 10px 30px;
+}
+
+@media screen and (min-width: 580px) {
+    .weatherInfoContainer {
+        margin: 0 auto;
+    }
+}
+
+.weatherInfoContainer h4 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.weatherInfoContainer h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.weatherInfoCity {
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.weatherInfoCity h4 {
+    margin: 7px;
+}
+
+.weatherInfoDetails {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.weatherInfoDetails h2 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 400;
+}
+
+.weatherInfoDetails div {
+    margin-top: 30px;
+}
+
+.weatherInfoDetails h5 {
+    font-size: .9em;
+    margin: 0;
+    font-weight: 400;
+}
+
+.error {
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 1.8em;
+}

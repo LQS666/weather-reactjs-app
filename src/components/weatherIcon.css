@@ -4,9 +4,8 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
     height: 140px;
     width: 20px;
-    margin-left: -15px;
     position: absolute;
-    left: 90px;
+    left: 15vw;
     top: 20px;
 }
 
@@ -57,9 +56,8 @@
         #FFFFFF 85px 5px 0 -5px;
     height: 50px;
     width: 50px;
-    margin-left: -60px;
     position: absolute;
-    left: 255px;
+    left: 3vw;
     top: 70px;
 }
 
@@ -104,9 +102,8 @@
     display: block;
     height: 50px;
     width: 50px;
-    margin-left: -60px;
     position: absolute;
-    left: 427px;
+    left: 8vw;
     top: 70px;
 }
 
@@ -328,9 +325,8 @@
         #222222 85px 5px 0 -5px;
     height: 50px;
     width: 50px;
-    margin-left: -60px;
     position: absolute;
-    left: 947px;
+    left: 4vw;
     top: 70px;
 }
 
@@ -414,9 +410,8 @@
     display: block;
     height: 50px;
     width: 50px;
-    margin-left: -60px;
     position: absolute;
-    left: 1112px;
+    left: 4vw;
     top: 70px;
 }
 

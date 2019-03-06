@@ -74,11 +74,11 @@ class App extends Component {
     render() {
         return (
             <>
+                <Result weather={this.state} />
                 <Form
                     change={this.handleInputChange}
                     value={this.state.value}
                 />
-                <Result weather={this.state} />
                 <Footer />
             </>
         );

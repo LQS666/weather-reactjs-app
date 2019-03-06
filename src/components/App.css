@@ -10,8 +10,8 @@ body {
     background: url('../images/background.jpg') no-repeat;
     object-fit: cover;
     background-size: cover;
-    height: 100vh;
     background-position: 50% 50%;
+    height: 100vh;
     overflow: hidden;
 }
 
