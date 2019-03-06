@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.jpg') no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+
+::selection {
+    color: white;
+    background: #3498db;
+}

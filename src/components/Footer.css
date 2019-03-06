@@ -1,0 +1,23 @@
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0px 20px;
+    color: black;
+    text-align: center;
+}
+
+footer p {
+    font-size: .9em;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer span {
+    color: #c0392b;
+    font-size: 1.8em;
+}
