@@ -1,0 +1,15 @@
+{
+  "main.css": "/weather-reactjs-app/static/css/main.589d5dd3.chunk.css",
+  "main.js": "/weather-reactjs-app/static/js/main.5074858d.chunk.js",
+  "main.js.map": "/weather-reactjs-app/static/js/main.5074858d.chunk.js.map",
+  "runtime~main.js": "/weather-reactjs-app/static/js/runtime~main.ad741295.js",
+  "runtime~main.js.map": "/weather-reactjs-app/static/js/runtime~main.ad741295.js.map",
+  "static/js/2.5bf9b2cd.chunk.js": "/weather-reactjs-app/static/js/2.5bf9b2cd.chunk.js",
+  "static/js/2.5bf9b2cd.chunk.js.map": "/weather-reactjs-app/static/js/2.5bf9b2cd.chunk.js.map",
+  "index.html": "/weather-reactjs-app/index.html",
+  "precache-manifest.6ffefd28be206841c9e8ec65a36112ac.js": "/weather-reactjs-app/precache-manifest.6ffefd28be206841c9e8ec65a36112ac.js",
+  "service-worker.js": "/weather-reactjs-app/service-worker.js",
+  "static/css/main.589d5dd3.chunk.css.map": "/weather-reactjs-app/static/css/main.589d5dd3.chunk.css.map",
+  "static/media/App.css": "/weather-reactjs-app/static/media/background.a523a4e5.jpg",
+  "static/media/logo.png": "/weather-reactjs-app/static/media/logo.0b99b5a2.png"
+}
