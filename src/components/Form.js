@@ -7,7 +7,7 @@ const Form = props => {
         <>
             {props.value ? null :
                 <div className='logo'>
-                    <img className='logoIcon' src={logo} alt="" />
+                    <img className='logoIcon' src={logo} alt="logo" />
                     <div>Weather app</div>
                 </div>
             }
